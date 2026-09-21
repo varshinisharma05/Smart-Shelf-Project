@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment variables & secrets (NEVER COMMIT)
+.env
+.env*.local
+*.env
+backend/.env
+frontend/.env
+
+# Build outputs
+dist/
+build/
+*.log
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
